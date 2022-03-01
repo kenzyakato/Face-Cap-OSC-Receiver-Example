@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -454,97 +454,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812e3d9f71023e44faee76c40375091a, type: 3}
---- !u!1 &1670121830
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1670121832}
-  - component: {fileID: 1670121833}
-  - component: {fileID: 1670121831}
-  - component: {fileID: 1670121834}
-  m_Layer: 0
-  m_Name: OSC Sender
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1670121831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670121830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31b433bc4acd2c848a34f71ebc0f3e17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Sender: {fileID: 1670121833}
-  m_Address: /avatar/parameters/BlinkLeft
-  m_Object: {fileID: 1994338979}
-  m_SourceComponent: {fileID: 1994338980}
-  m_MemberIsProperty: 0
-  m_PropertyName: BlinkL
-  m_PropertyTypeName: Single
-  m_SendVector2Elements: 0
-  m_SendVector3Elements: 0
-  m_PreviousSingleValue: 0
---- !u!4 &1670121832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670121830}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1670121833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670121830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c1928c5603a46bc81a0f7aaa53b60bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IpAddress: 127.0.0.1
-  m_Port: 9000
---- !u!114 &1670121834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670121830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31b433bc4acd2c848a34f71ebc0f3e17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Sender: {fileID: 1670121833}
-  m_Address: /avatar/parameters/BlinkRight
-  m_Object: {fileID: 1994338979}
-  m_SourceComponent: {fileID: 1994338980}
-  m_MemberIsProperty: 0
-  m_PropertyName: BlinkR
-  m_PropertyTypeName: Single
-  m_SendVector2Elements: 0
-  m_SendVector3Elements: 1
-  m_PreviousSingleValue: 0
 --- !u!137 &1880707654 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: -720298726770719842, guid: 812e3d9f71023e44faee76c40375091a,
@@ -580,7 +489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1827490757b45449577762107bd3f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Blendersheapes: []
   face: {fileID: 1880707654}
 --- !u!4 &1994338981
 Transform:

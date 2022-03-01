@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: FaceTrackingExpressionParameters
+  m_EditorClassIdentifier: 
+  parameters:
+  - name: 0
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 8
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 9
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 43
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 44
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 1
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 24
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 6
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 7
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 2
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: X
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 18
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 19
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 20
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: 21
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+  - name: Y
+    valueType: 1
+    saved: 1
+    defaultValue: 0
