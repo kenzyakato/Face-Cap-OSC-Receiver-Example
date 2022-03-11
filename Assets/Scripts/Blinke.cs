@@ -23,7 +23,7 @@ public class Blinke : MonoBehaviour
         //目のトラキング値を発送する
         Client.Send(m_Address + "X", R + L);
         Client.Send(m_Address + "Y", UP + DOWN);
-        //顔を制御　対応するblendshapkeyを制御する
+        //顔を制御　対応するblendshapesを制御する
         Client.Send(m_Address + 0.ToString(), face.GetBlendShapeWeight(0) / 100);
         Client.Send(m_Address + 1.ToString(), face.GetBlendShapeWeight(1) / 100);
         Client.Send(m_Address + 2.ToString(), face.GetBlendShapeWeight(2) / 100);
@@ -34,7 +34,7 @@ public class Blinke : MonoBehaviour
         Client.Send(m_Address + 44.ToString(), face.GetBlendShapeWeight(44) / 100);
         Client.Send(m_Address + 43.ToString(), face.GetBlendShapeWeight(43) / 100);
         Client.Send(m_Address + 23.ToString(), face.GetBlendShapeWeight(24) / 100);
-        //連続のBlendKeyを制御
+        //連続のBlendshapesを制御
         for (int i = 18;i < 23; i++)
         {
             float n = face.GetBlendShapeWeight(i) / 100;
