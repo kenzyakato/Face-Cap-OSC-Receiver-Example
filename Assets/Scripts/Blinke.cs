@@ -35,6 +35,10 @@ public class Blinke : MonoBehaviour
         Client.Send(m_Address + 43.ToString(), face.GetBlendShapeWeight(43) / 100);
         Client.Send(m_Address + 23.ToString(), face.GetBlendShapeWeight(24) / 100);
         //連続のBlendshapesを制御
+
+        Client.Send(m_Address + 24.ToString(), face.GetBlendShapeWeight(24) / 100);
+        //連続のBlendKeyを制御
+
         for (int i = 18;i < 23; i++)
         {
             float n = face.GetBlendShapeWeight(i) / 100;
